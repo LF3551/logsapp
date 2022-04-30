@@ -10,7 +10,7 @@ app.set('views', path.resolve(__dirname, 'pages'))
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }))
 
-const port = process.env.PORT ?? 3005
+const port = process.env.PORT ?? 4200
 const logsPath = path.resolve(__dirname, 'data', 'logs.txt')
 
 app.get('/', async (req, res) => {
