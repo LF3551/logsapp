@@ -1,6 +1,6 @@
 ## SIMPLE WEB APP for collection logs with Dockerfile
 
-# firstly you need to install npm
+### firstly you need to install npm
 npm install
 
 main file is app.js
